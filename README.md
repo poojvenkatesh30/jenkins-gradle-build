@@ -10,7 +10,7 @@ Approach:
 2. Ran a gradle build manually against the project and verified that the builds are getting created[githublink: https://github.com/jitpack/gradle-simple]
 3. Dockerize the project
     
-    1. Idenitfied gradle docker image and mounted the project into the gradle image to run a gradle build.
+    1. Identfied gradle docker image and mounted the project into the gradle image to run a gradle build.
 
         Command to run:
         ---------------
