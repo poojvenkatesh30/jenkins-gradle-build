@@ -20,9 +20,16 @@ Approach:
 
 Installing/Configuring Jenkins and Docker in an AWS EC2 instance:
 ---------------------------------------------------------------------
-1. Launched an EC2 instance and configured Jenkins and Docker. 
+1. Launched an EC2 instance and configured Jenkins[port:8080] and Docker. 
 2. Create a Jenkins Job [gradle-build-from-git-project]
 3. Write a groovy script to run the gradle build in a docker image using Jenkins pipeline. 
 4. Parameterize the grrovy script. 
 5. Trigger the build from Jenkins and check if the jar is being created for the targeted project. 
 6. The jars are saved in the artifacts. 
+
+Run Instructions:
+---------------------------------------------------------------------
+1. Login to Jenkins. 
+2. Click on the Jenkins Job. 
+3. Click on  "Build with Parameters". 
+4. Verify the latest successful artifact which will have the jar.
