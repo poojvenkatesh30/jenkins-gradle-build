@@ -6,16 +6,16 @@ Problem Statement: Create a simple gradle build (against projects that you can d
 
 Solution Description:
 --------------------------------------------------------------------
-1. Downloded a github project to do the gradle build.Identified the github project to do a gradle build.
+1. Downloded a github project to do the gradle build.
 2. Ran a gradle build manually against the project and verified that the builds are getting created[project githublink: https://github.com/jitpack/gradle-simple]
-3. Dockerize the project  
+3. Dockerized the project  
     1. Used the gradle docker image and mounted the github project downloaded into the gradle image to run the gradle build.
     2. Once the build is complete and docker container exits, it will be automatically removed.
 
         The command to run gradle build and remove the container once build completes is as below:
     
         "docker run --rm -u gradle -v "$PWD":/home/gradle/project -w /home/gradle/project gradle gradle build"
-4. Configure the above steps in a jenkins pipeline.
+4. Configured the above steps in a jenkins pipeline.
 
 
 
@@ -35,5 +35,5 @@ Run Instructions:
 3. Click on  "Build with Parameters". 
 4. Verify the latest successful artifact which will have the jar.
 
-
-The screenshots for the gradle build using jenkins pipeline are attached in the word document named - screenshots_for_Jenkins-Gradle_build.docx
+*The Jenkins pipeline[groovy file] for gradle build is jenkins-pipeline-gradlebuild.groovy
+*The screenshots for the gradle build using jenkins pipeline are attached in the word document named - screenshots_for_Jenkins-Gradle_build.docx
