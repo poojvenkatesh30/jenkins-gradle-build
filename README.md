@@ -36,4 +36,4 @@ Run Instructions:
 4. Verify the latest successful artifact which will have the jar.
 
 
-The screenshots for the jenkins pipeline are attached under location - 
+The screenshots for the gradle build using jenkins pipeline are attached in the word document named - screenshots_for_Jenkins-Gradle_build.docx
