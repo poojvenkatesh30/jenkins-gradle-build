@@ -35,5 +35,8 @@ Run Instructions:
 3. Click on  "Build with Parameters". 
 4. Verify the latest successful artifact which will have the jar.
 
-*The Jenkins pipeline[groovy file] for gradle build is jenkins-pipeline-gradlebuild.groovy
-*The screenshots for the gradle build using jenkins pipeline are attached in the word document named - screenshots_for_Jenkins-Gradle_build.docx
+
+Github Files:
+---------------------------------------------------------------------
+1. The Jenkins pipeline[groovy file] for gradle build is jenkins-pipeline-gradlebuild.groovy
+2. The screenshots for the gradle build using jenkins pipeline are attached in the word document named - screenshots_for_Jenkins-Gradle_build.docx
